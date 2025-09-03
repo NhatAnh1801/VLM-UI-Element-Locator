@@ -7,7 +7,7 @@
       - 2. *Query*: The user describes the target element they want to find, such as "the blue login button" or "the search bar."
       - 3. *Output*: The model processes both the image and the text query, returning the exact (x, y) coordinates for the center of that element.
   #  
-    ```mermaid
+ ```mermaid
 flowchart TD
         A(["Start"])
         A([Start]) --> B[Survey Image with VLM to Create UI Map];
