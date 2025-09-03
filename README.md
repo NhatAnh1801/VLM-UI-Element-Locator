@@ -1,12 +1,12 @@
 # VLM-UI-Element-Locator
 ## 1. Project overview
-  # 1.1 Project requirement and outcome
-    This project demonstrates how a Vision Language Model (VLM) can be used to understand and interact with graphical user interfaces (GUIs). The primary goal is to take a screenshot of a website or application and locate the precise coordinates of a specific UI element based on a user's natural language description.
-    Here is the workflows
-      - 1. *Input*: The user provides an image of a UI (e.g., a website screenshot).
-      - 2. *Query*: The user describes the target element they want to find, such as "the blue login button" or "the search bar."
-      - 3. *Output*: The model processes both the image and the text query, returning the exact (x, y) coordinates for the center of that element.
-  #  
+### 1.1 Project requirement and outcome
+This project demonstrates how a Vision Language Model (VLM) can be used to understand and interact with graphical user interfaces (GUIs). The primary goal is to take a screenshot of a website or application and locate the precise coordinates of a specific UI element based on a user's natural language description.
+
+here is the workflow:
+  - **Input**: The user provides an image of a UI (e.g., a website screenshot).
+  - **Query**: The user describes the target element they want to find, such as "the blue login button" or "the search bar."
+  - **Output**: The model processes both the image and the text query, returning the exact (x, y) coordinates for the center of that element.
  ```mermaid
 flowchart TD
         A(["Start"])
@@ -19,7 +19,7 @@ flowchart TD
         E --> G([End]);
         F --> G;
 ```
-  # Setup and runcode 
+# Setup and runcode 
 ## 2. What I learned
   ### 2.1 How Multimodal Models Work
   ### 2.2 Reading documents and examples
